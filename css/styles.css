@@ -1,0 +1,352 @@
+body {
+  font-family: sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #131821;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: #4066A5;
+}
+
+a:active {
+  color: #233759;
+}
+
+h2 {
+  position: absolute;
+  left: 162px;
+  font-size: 32px;
+  top: 76px;
+  line-height: 44px;
+  /* font-weight: 400; */
+
+}
+
+p {
+  position: absolute;
+  left: 161px;
+  top: 177px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+hr {
+  position: absolute;
+  width: 63%;
+  height: 1px;
+  left: 140px;
+  top: 495px;
+}
+
+/* input div */
+
+input {
+  width: 90%;
+  height: 60px;
+}
+
+.input-group-btn {
+  position: relative;
+}
+
+button {
+   position: absolute;
+   left: -30px;
+   top: 1px;
+   background: #fff;
+   border: none;
+}
+
+.email-box {
+  position: absolute;
+  top: 266px;
+  left: 131px;
+  width: 80%;
+}
+
+.form-control {
+  border-left-color: #4066A5 ;
+  border-left-width: 5px;
+}
+
+
+/* div Section */
+
+header .top-container {
+  position: absolute;
+  left: 10px;
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+
+}
+
+
+
+.Right-container {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  width: 60%;
+  height: 100%;
+
+}
+
+
+.middle-container {
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  width: 35%;
+  height: 700px;
+}
+
+/* Test Media */
+
+/* @media (max-width:1875px) {
+
+.Right-container {
+  width: 1000px;
+}
+
+.middle-container {
+  width: 40%;
+}
+
+.top-container {
+  width: 40%;
+}
+
+
+}
+
+@media (max-width:1660px) {
+
+.Right-container {
+  width: 900px;
+}
+
+.middle-container {
+    width: 500px;
+  }
+
+  .top-container {
+    width: 500px;
+  }
+}
+
+@media (max-width:1540px) {
+
+.Right-container {
+  width: 700px;
+}
+
+.middle-container {
+    width: 500px;
+  }
+
+  .top-container {
+    width: 500px;
+  }
+}
+
+@media (max-width:1350px) {
+
+.Right-container {
+  width: 500px;
+}
+
+.middle-container {
+    width: 400px;
+  }
+
+  .top-container {
+    width: 400px;
+  }
+}
+
+@media (max-width:990px) {
+  .ctn1 {
+    text-align: center;
+  }
+
+
+} */
+
+
+
+
+/* social-icon */
+
+.icon-con {
+  left: 201px;
+  top: 545px;
+  position: absolute;
+
+}
+
+.staff {
+  margin: 20px 10px;
+  padding-top: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid;
+  box-sizing: border-box;
+  border-color: #E3E3E4;
+  color: #E3E3E4;
+
+}
+
+.stface:hover {
+  background-color: #4066A5;
+}
+
+.stface:active {
+  background-color: #0d335d;
+}
+
+.stinst:hover {
+  background-color: #b34180;
+}
+
+.stinst:active {
+  background-color: #763857;
+}
+
+.sttwitt:hover {
+  background-color: #00bcd4;
+}
+
+.sttwitt:active {
+  background-color: #1687a7;
+}
+
+.styou:hover {
+  background-color: #e40017;
+}
+
+.styou:active {
+  background-color: #8c0000;
+}
+
+
+
+
+
+
+
+/* checkmark */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 165px;
+  top: 399px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #4066A5;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Img section */
+
+.headimage {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+
+.pin-logo {
+  width: 50px;
+  position: absolute;
+  top: 58px;
+  left: 61px;
+}
+
+
+/* text-section */
+
+.text-logo {
+  position: absolute;
+  left: 109px;
+  top: 64px;
+
+}
+
+
+/* link Section */
+
+.linkTop1 {
+  position: absolute;
+  left: 343px;
+  top: 82px;
+}
+
+.linkTop2 {
+  position: absolute;
+  left: 420px;
+  top: 82px;
+
+}
+
+.linkTop3 {
+  position: absolute;
+  left: 541px;
+  top: 82px;
+}
